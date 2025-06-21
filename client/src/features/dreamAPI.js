@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = 'http://localhost:5000/dreams'
+const baseURL = 'https://dream-journal-oi4b.onrender.com/dreams'
 
 export const fetchDreamsAPI = ()=>{
     return axios.get(baseURL)
